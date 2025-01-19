@@ -77,7 +77,7 @@ const Login = () => {
 
   const handleSignUp = async (e) => {
     e.preventDefault();
-    console.log( `${server}/api/v1/user/new`);
+  
 
     const toastId = toast.loading("Signing Up...");
     setIsLoading(true);
@@ -95,6 +95,7 @@ const Login = () => {
         "Content-Type": "multipart/form-data",
       },
     };
+    console.log( `${server}/api/v1/user/new`);
 
     try {
       const { data } = await axios.post(
