@@ -24,7 +24,7 @@ import {
 import { getSocket } from "../../socket";
 import DeleteChatMenu from "../dialogs/DeleteChatMenu";
 import Title from "../shared/Title";
-import ChatList from "src/components/specific/Chatlist.jsx";
+import ChatList from "../specific/Chatlist.jsx";
 import Profile from "../specific/Profile";
 import Header from "./Header";
 
